@@ -25,6 +25,12 @@ const TallyList = () => {
         return updatedState;
       });
     }
+
+    inputRefs.forEach((ref) => {
+      if (ref.current) {
+        ref.current.value = "";
+      }
+    });
   };
 
   return (
