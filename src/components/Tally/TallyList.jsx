@@ -31,6 +31,8 @@ const TallyList = () => {
         ref.current.value = "";
       }
     });
+
+    window.scrollTo(0, 0);
   };
 
   return (
