@@ -1,10 +1,11 @@
-import Tally from "./Tally";
-
-const TallyInput = () => {
+import { forwardRef } from "react";
+// eslint-disable-next-line react/display-name
+const TallyInput = forwardRef((props, ref) => {
   return (
     <>
-      <input type="number" ref={inputRef} />
-      <Tally count={count} />
+      <input type="number" ref={ref} max="5" min="1" id={props.id} />
     </>
   );
-};
+});
+
+export default TallyInput;

@@ -1,5 +1,5 @@
+import { forwardRef } from "react";
 import classes from "./Tally.module.css";
-
 const Tally = (props) => {
   return (
     <div className={classes.wrapper}>
