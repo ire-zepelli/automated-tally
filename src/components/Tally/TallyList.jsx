@@ -32,7 +32,7 @@ const TallyList = () => {
       {count.map((_, index) => (
         <div className={classes.wrapper} key={index}>
           <div>
-            <p>{index + 1}</p>
+            <p> Q {index + 1}</p>
             <TallyInput
               count={count[index]}
               ref={inputRefs[index]}
