@@ -2,3 +2,13 @@
   display: flex;
   gap: 5rem;
 }
+
+h3 {
+  width: 14rem;
+}
+
+.button-div {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}

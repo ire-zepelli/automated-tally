@@ -50,7 +50,9 @@ const TallyList = () => {
           <Tally count={count[index]} />
         </div>
       ))}
-      <button onClick={submitHandler}>Evaluate</button>
+      <div className={classes["button-div"]}>
+        <button onClick={submitHandler}>Evaluate</button>
+      </div>
     </>
   );
 };
